@@ -1,0 +1,30 @@
+.index {
+    margin-top: 15%;
+}
+
+.index h1 {
+    font-size: 2.4em;
+    font-weight: 300;
+    padding-bottom: 5%;
+}
+
+.linkadmin {
+    padding: 15px;
+    border: 1px solid #20B2AA;
+    border-radius: 15px ;
+    color: #20B2AA;
+    font-size: 1.3em;
+}
+
+.linkadmin:hover {
+    background-color: #20B2AA;
+    color: white;
+}
+
+.list {
+    margin-top:10%;
+}
+
+.logImg {
+    width: 50px;
+}

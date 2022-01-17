@@ -1,0 +1,18 @@
+.label {
+    font-size: 1.2em;
+}
+
+.tealBtn {
+    padding: 10px 15px;
+    border: solid 3px #20B2AA;
+    border-radius: 20px;
+    color: #20B2AA;
+    font-size: 1.2em;
+    background-color: white;
+    margin: 3% 0;
+}
+
+.tealBtn:hover {
+    background-color: #20B2AA;
+    color: white;
+}

@@ -1,0 +1,15 @@
+.buttonBack {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #20B2AA;
+    color: #fff;
+    border-radius: 15px;
+    transition: all 0.1s;
+    font-size: 1.2em;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    color:#fff;
+    opacity: 0.7;
+}

@@ -1,0 +1,22 @@
+.loginPage {
+    margin-top: 15%;
+}
+
+.loginPage > h1 {
+    padding-bottom: 5%;
+}
+
+.loginBtn {
+    padding: 10px 15px;
+    border: solid 3px #20B2AA;
+    border-radius: 20px;
+    color: #5483D6;
+    font-size: 1.2em;
+    background-color: white;
+    margin: 3% 0;
+}
+
+.loginBtn:hover {
+    background-color: #20B2AA;
+    color: white;
+}

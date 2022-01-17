@@ -1,0 +1,109 @@
+.sec1 {
+    margin-top: 5%;
+    background-image: url('./img/coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraph {
+    position: absolute;
+    width: 30%;
+    font-size: 3em;
+    font-weight: 400;
+    top:35%;
+    left:10%;
+}
+
+
+.logo {
+    width: 60px;
+    object-fit: cover;
+}
+
+.sec2 {
+    margin: 80px 0;
+    width: 100vw;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article h3 {
+    padding: 5% 0;
+}
+
+.article > p {
+    font-size: 1.3em;
+}
+
+.sec3 {
+    width: 100vw;
+    margin: 80px 0;
+}
+
+.sec3.red {
+    background-color: #8FBC8F;
+    transition: all 0.8s;
+}
+
+.paragraph.blank {
+    color: white;
+    text-align: center;
+    width: 70%;
+}
+
+.white {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whiteBtn {
+    padding: 10px 15px;
+    border: solid 3px #20B2AA;
+    border-radius: 20px;
+    color: #20B2AA;
+    font-size: 1.2em;
+    transition: all 0.2s;
+}
+
+.yellowBtn {
+    padding: 10px 15px;
+    border: solid 3px #20B2AA;
+    border-radius: 20px;
+    color: white;
+    background-color: #20B2AA;
+    font-size: 1.2em;
+    transition: all 0.2s;
+}
+
+.whiteBtn:hover {
+    color: black;
+    transform: scale(1.2);
+
+}
+
+.yellowBtn:hover {
+    color:white;
+    transform: scale(1.2);
+
+}
+
+.sec4 {
+    background-color:  #008B8B;
+    color: white;
+    width: 100vw;
+}
+
+

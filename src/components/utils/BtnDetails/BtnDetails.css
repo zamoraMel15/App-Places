@@ -1,0 +1,13 @@
+.buttonDetails {
+    text-decoration: none;
+    color: #20B2AA;
+    border: solid 2px #20B2AA;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.buttonDetails:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #20B2AA;
+}

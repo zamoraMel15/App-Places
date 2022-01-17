@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;500;600&display=swap');
+
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 50;
+    overflow: hidden;
+    width: 100%;
+    background-color: #008B8B !important;
+}
+
+.navlink {
+    color: white;
+    padding: 20px 30px;
+    transition: all 0.2s;
+}
+
+.navlink:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.nav > div {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.nav h1 {
+    font-size: 1.7em;
+    padding: 0;
+}
+
+.nav div > :hover {
+    font-weight: 600;
+}
